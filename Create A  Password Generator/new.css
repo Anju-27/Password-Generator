@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8a2be2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #4b0082;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .password-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .password-box input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background-color: #ff69b4;
+    color: black;
+  }
+  
+  .password-box button {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #ff1493;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .controls {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .controls input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .generate-btn {
+    background-color: #1e90ff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .generate-btn:hover {
+    background-color: #4682b4;
+  }
+  
